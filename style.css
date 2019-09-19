@@ -1,20 +1,19 @@
-@media screen and (max-width: 450px) {
-    .container {
-      float: left;
+* {
+    box-sizing: border-box;
+  }
+
+@media screen and (max-width: 700px) {
+    .col-8 {
+        color: pink;
     }
-  
-    footer {
-        float: left;
+    .col-6{
+        height: 45%;
     }
   }
-  @media screen and (min-width: 768px) {
-    /* The body's bg color will be #333 */
+
+  /* @media screen and (min-width: 768px) {
     body {
-      background-color: #333;
+      background-color: purple;
     }
   
-    /* The wrapper's width will be 600px */
-    .wrapper {
-      width: 600px;
-    }
-  }
+  } */
